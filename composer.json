@@ -1,0 +1,7 @@
+{
+  "name": "nooneon/FastMultiCurl",
+  "description": "Fast and simple multi threaded web requests fetcher",
+  "require": {
+    "php": "^5.4 || ^7."
+  }
+}
