@@ -1,7 +1,13 @@
 {
-  "name": "nooneon/FastMultiCurl",
+  "name": "nooneon/fast-multi-curl",
   "description": "Fast and simple multi threaded web requests fetcher",
   "require": {
-    "php": "^5.4 || ^7."
-  }
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "nooneon\\": "src"
+    }
+  },
+  "version": "1.0"
 }

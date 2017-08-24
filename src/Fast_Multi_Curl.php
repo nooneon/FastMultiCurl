@@ -9,7 +9,7 @@ namespace nooneon;
  *
  * @package nooneon
  */
-class FastMultiCurl
+class Fast_Multi_Curl
 {
     /**
      * @var int Maximum concurrent connections allowed at one time
@@ -49,7 +49,7 @@ class FastMultiCurl
     /**
      * Do fetch results from $urls array
      *
-     * @return FastMultiCurl $this instance for chaining
+     * @return Fast_Multi_Curl $this instance for chaining
      */
     public function fetch()
     {
@@ -217,7 +217,7 @@ class FastMultiCurl
      * Sets internal pointer to array of urls requests
      *
      * @param array $urls Pointer to array of urls
-     * @return FastMultiCurl $this instance for chaining
+     * @return Fast_Multi_Curl $this instance for chaining
      */
     public function setUrls(array &$urls)
     {
@@ -229,7 +229,7 @@ class FastMultiCurl
      * Sets internal pointer to array of results.
      *
      * @param array $results Pointer to empty array for results
-     * @return FastMultiCurl $this instance for chaining
+     * @return Fast_Multi_Curl $this instance for chaining
      */
     public function setResults(array &$results)
     {
@@ -241,7 +241,7 @@ class FastMultiCurl
      * Sets maximum concurrent requests
      *
      * @param int $max_concurrent Maximum concurrent requests
-     * @return FastMultiCurl $this instance for chaining
+     * @return Fast_Multi_Curl $this instance for chaining
      */
     public function setConcurrent(int $max_concurrent)
     {
@@ -253,7 +253,7 @@ class FastMultiCurl
      * Enable debug printing of fetching process
      *
      * @param bool $debugOn
-     * @return FastMultiCurl $this instance for chaining
+     * @return Fast_Multi_Curl $this instance for chaining
      */
     public function setDebug(bool $debugOn) {
         $this->_debugOn = $debugOn;
